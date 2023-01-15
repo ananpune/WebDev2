@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Tic Tac Toe!</h1>
+    <br><br>
+    <h2>
+        Player 1:
+        <span id="playerName1"></span> Player 2:
+        <span id="playerName2"></span>
+    </h2>
+    <h2>
+        Turn:
+        <span id="playerTurn"></span>
+    </h2>
+    <h2>Make your move!</h2>
+    <section class="gameBoard">
+        <button class="choice" id='b0' onclick="this.disabled=true;"></button>
+        <button class="choice" id='b1' onclick="this.disabled=true;"></button>
+        <button class="choice" id='b2' onclick="this.disabled=true;"></button>
+        <button class="choice" id='b3' onclick="this.disabled=true;"></button>
+        <button class="choice" id='b4' onclick="this.disabled=true;"></button>
+        <button class="choice" id='b5' onclick="this.disabled=true;"></button>
+        <button class="choice" id='b6' onclick="this.disabled=true;"></button>
+        <button class="choice" id='b7' onclick="this.disabled=true;"></button>
+        <button class="choice" id='b8' onclick="this.disabled=true;"></button>
+    </section>
+    <br><br>
+    <section class="resetGame">
+        <button id="reset" onclick="window.location.reload();">Reset</button>
+    </section>
+
+</body>
+
+</html>

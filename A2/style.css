@@ -1,0 +1,50 @@
+body {
+    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gameBoard {
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33%;
+    max-width: 450px;
+}
+
+.choice {
+    font-weight: bold;
+    font-size: large;
+    border: 1px solid black;
+    min-width: 100px;
+    min-height: 100px;
+    cursor: pointer;
+    background-color: pink;
+}
+
+h2 {
+    text-align: center;
+}
+
+.resetGame {
+    text-align: center;
+}
+
+.reset {
+    min-width: 100px;
+    min-height: 50px;
+    background-color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+#playerName1 {
+    color: red;
+}
+
+#playerName2 {
+    color: red;
+}
